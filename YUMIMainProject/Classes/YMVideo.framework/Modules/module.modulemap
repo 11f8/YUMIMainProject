@@ -1,0 +1,6 @@
+framework module YMVideo {
+  umbrella header "YMVideo.h"
+
+  export *
+  module * { export * }
+}

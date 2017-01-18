@@ -1,0 +1,6 @@
+framework module Pods_YUMIMainProject_Tests {
+  umbrella header "Pods-YUMIMainProject_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

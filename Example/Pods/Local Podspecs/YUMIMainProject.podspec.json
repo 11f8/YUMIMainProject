@@ -1,0 +1,22 @@
+{
+  "name": "YUMIMainProject",
+  "version": "0.1.0",
+  "summary": "A short description of YUMIMainProject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/YUMIMainProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "czt740277638": "740277638@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/YUMIMainProject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YUMIMainProject/Classes/**/*"
+}
