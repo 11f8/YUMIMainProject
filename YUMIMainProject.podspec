@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YUMIMainProject'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YUMIMainProject.'
+  s.version          = '1.0.1'
+  s.summary          = ' YUMIMainProject.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/YUMIMainProject'
+  s.homepage         = 'https://github.com/czt740277638/YUMIMainProject.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'czt740277638' => '740277638@qq.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/YUMIMainProject.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/czt740277638/YUMIMainProject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YUMIMainProject/Classes/**/*'
+  s.ios.vendored_frameworks = 'YUMIMainProject/Classes/YMVideo.framework'
+  s.libraries = 'c++','sqlite3','xml2','z'
+  s.frameworks = 'AVFoundation','Accelerate','AdSupport','AudioToolbox','CFNetwork','CoreBluetooth','CoreData','CoreGraphics','CoreImage','CoreLocation','CoreMedia','CoreMotion','CoreTelephony','CoreVideo','EventKit','EventKitUI','Foundation','GLKit','MediaPlayer','MessageUI','MobileCoreServices','OpenGLES','QuartzCore','SafariServices','Security','Social','StoreKit','SystemConfiguration','UIKit','WebKit','iAd'
+
   
   # s.resource_bundles = {
   #   'YUMIMainProject' => ['YUMIMainProject/Assets/*.png']

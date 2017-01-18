@@ -7,75 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03CA091630A6082A48782B9D686BF27F /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = C4699DF99D9E3C8426BBE93F9E28DC1C /* CodeDirectory */; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		0B8DBAB184BB7E8E1D9C5E3386A8DEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
-		12C97CA2A98B8B9315FE0F7B7F63F7A4 /* YUMIVideoType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7975939408AE88484BE240212AD5F1 /* YUMIVideoType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13A48ED20A012C6A3587D0F5B8031243 /* YuMIVideoSDKAdNetworkRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = D8116C9241363838FED890412DB5FEF6 /* YuMIVideoSDKAdNetworkRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8DBAB184BB7E8E1D9C5E3386A8DEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB42718430AB4A121D94608B3211F92 /* Foundation.framework */; };
+		0C83C65DEDBB8B90ED174CE47BBB19CF /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F965AA5C51097A67F94CEA6C668CDDF /* EventKit.framework */; };
+		12C97CA2A98B8B9315FE0F7B7F63F7A4 /* YUMIVideoType.h in Headers */ = {isa = PBXBuildFile; fileRef = 02518265A31A7039390BF582D32918CA /* YUMIVideoType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13A48ED20A012C6A3587D0F5B8031243 /* YuMIVideoSDKAdNetworkRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE595536653639801F6799A2E173219 /* YuMIVideoSDKAdNetworkRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13D38AC996701A324CC90C42E5D03322 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472323AE481DF68DD55C7B163E0E2F48 /* CoreMedia.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		1BAF6521141BED79D6DF89BD6A24C8B9 /* YuMIVideoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5128F7223500C44DBFEB4713C86AED1F /* YuMIVideoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CDAAF029547529BBE4100EDF81D446A /* YuMIDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FC09F22722071B1955047C08031DFF /* YuMIDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D4BB78AF93BEF7F172916DF24FE4522 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 16B64C01405CDB472CCF31747CB4E613 /* CodeResources */; };
-		1F9BF9A977FFF879296A265AA9689D12 /* YuMIVideoRationsCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95C4B426689B99D62CAE34E915E07ACB /* YuMIVideoRationsCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27F1E21F0963FE17748B4953D191BCA7 /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = 1F55FED16BD4CC7481DC3DA9DBE65781 /* CodeRequirements */; };
-		284FD11D50EBF5B8124EFA148404D039 /* GetInfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1F885945C5BB3B5CB37E7CD95B15B3 /* GetInfoRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B201A5F319C276C57837DBACD527691 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321338C68218A724EE037ABDC9D6ADCD /* iAd.framework */; };
+		1BAF6521141BED79D6DF89BD6A24C8B9 /* YuMIVideoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 414AEC890E2F6817A7C2CD8CF2F3D366 /* YuMIVideoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CDAAF029547529BBE4100EDF81D446A /* YuMIDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A0560400E86A6F6E6BB7C5E78E92C82C /* YuMIDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F9BF9A977FFF879296A265AA9689D12 /* YuMIVideoRationsCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 878DF30DEEA8C682AD38E6B84303FA58 /* YuMIVideoRationsCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209CF0BDCADBFF066215A0D183B541E5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443D94D612CD63712AA5B4567AACD634 /* Social.framework */; };
+		2274C10185B96655B702256BE0E7C2F0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD28F5677D8031FCCB0092860399E34 /* CoreBluetooth.framework */; };
+		284FD11D50EBF5B8124EFA148404D039 /* GetInfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 31985223262761592D0AFAED60218F25 /* GetInfoRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EA0E95A570DAB566CB1E3A833D165AF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEB6E8CFE323BB72B175275013B6696 /* OpenGLES.framework */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6EC8899F7E1FB6AA3BCD60E4CE1BFF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68226C5450D53024F8413000F128B9E /* CoreVideo.framework */; };
+		31C6DAA13453D256D9CEC5E9E9A0F14F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12304C412D0FEE67E365073F4D2FB047 /* CoreMotion.framework */; };
+		3409DF4E5715931B8EEEC6D9BA687E85 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850BB736B170E9D6DFD3E68F58308715 /* WebKit.framework */; };
+		3437B7E9E3DF570CE2006E7210B2C8EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBA5CD580A1808B75538BE214F5318A /* QuartzCore.framework */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		388306B40378E570AEF8EFA5356910E4 /* YuMIAnalysisDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D03547F25F024F8E119A89156DBD97 /* YuMIAnalysisDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B83A2F08BC090A6FD3EBA869E1BD39D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */; };
-		3EBE527A460E2B7632A652493E642D2C /* YuMIVideoConfigSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CEA8AFE589F7D8BC143760DA5E9D92 /* YuMIVideoConfigSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F3984040A42574A1F7AAFA7FA3B4AD4 /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = 57566505993DAEEB3249AD370B65A216 /* CodeRequirements-1 */; };
-		411337E4E89166E8C8D910ED4305BE6A /* YMVideo in Sources */ = {isa = PBXBuildFile; fileRef = 8AC99E271B49E4F938F6EFB81F072EA2 /* YMVideo */; };
+		388306B40378E570AEF8EFA5356910E4 /* YuMIAnalysisDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBE3EEFA009455DD9FA3D0D2778F24E /* YuMIAnalysisDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B83A2F08BC090A6FD3EBA869E1BD39D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBA5CD580A1808B75538BE214F5318A /* QuartzCore.framework */; };
+		3EBE527A460E2B7632A652493E642D2C /* YuMIVideoConfigSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 763FC80C9BD12181F69B0D4B9BCD5534 /* YuMIVideoConfigSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA2FAF2AF06D6F98F73D39E0551D7D9 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C4E9B95B468FADB0E0027EB9C02ECD /* EventKitUI.framework */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		432BAF6785DEAE35AC13A7EF97D00843 /* YuMIVideoConfigCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = B0CE8C0D7DE106F9862542F0A9929F11 /* YuMIVideoConfigCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49F4B654750AE314984E8E081707EB7F /* YuMIVideoConfigInf.h in Headers */ = {isa = PBXBuildFile; fileRef = 06052BD7A6F306CB88F661FE1DC668D9 /* YuMIVideoConfigInf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		432BAF6785DEAE35AC13A7EF97D00843 /* YuMIVideoConfigCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A11218065A6FB3C6229E9886A3AB1629 /* YuMIVideoConfigCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4909023C1E7AE5E51D0121BD1CA7E15C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE4554143C7EDB538740F0CC8A56F70 /* CoreData.framework */; };
+		49F4B654750AE314984E8E081707EB7F /* YuMIVideoConfigInf.h in Headers */ = {isa = PBXBuildFile; fileRef = 60226A1BDA81C7FEA2B909EAFD6CB9C9 /* YuMIVideoConfigInf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CAA768D802A97687B75465C536E52BF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC4B1ED46D2178885B426716B0BF365 /* CoreTelephony.framework */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		51C061CFB0398DC036876A9BA2290780 /* YuMIVideoConfigMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 959E3A30E918DA2AA504FE6ADF60DA2A /* YuMIVideoConfigMemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		546DC0486BB2B7A4F73E22EF76EDF0A5 /* YuMIVideoReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 111ED7C54A852B9432CF9A85A16DF24D /* YuMIVideoReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54BE6D916CE034DCE4A63E0DEA07B496 /* YuMIVideoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 516DFA9117272E7416AED5ADA4B2EE21 /* YuMIVideoError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5833CA67227D4ED9D40E2F6C3D549FE2 /* YuMIVideoAdNetworkAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = A165BDE4A93138FAFE8BA0F61BFB5B24 /* YuMIVideoAdNetworkAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AE8E0039917B8625E77E4B4AD14DC4F /* YuMIVideoFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C9FFB122E7F89D806909E1F09B51FC /* YuMIVideoFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		614048B340398DB002F1FD3BBF9AD201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
-		640776F175B648FBC2E43C16ECF3F39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */; };
+		51C061CFB0398DC036876A9BA2290780 /* YuMIVideoConfigMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = BB684E9BA2F55B03C4852179CDF44DB0 /* YuMIVideoConfigMemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		546DC0486BB2B7A4F73E22EF76EDF0A5 /* YuMIVideoReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBB8C0E2BCCC4FD47E5ECAA20AA07A5 /* YuMIVideoReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BE6D916CE034DCE4A63E0DEA07B496 /* YuMIVideoError.h in Headers */ = {isa = PBXBuildFile; fileRef = E44C70069D168380D1B45A7DA58DC46E /* YuMIVideoError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5833CA67227D4ED9D40E2F6C3D549FE2 /* YuMIVideoAdNetworkAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 432CF4C5411D2C862669BE24659BF086 /* YuMIVideoAdNetworkAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B79A33BCF5BD0698155BB29C613CA3 /* YUMIMainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 552BC5D7204A2F625B1C4CB961CB55B2 /* YUMIMainProject-dummy.m */; };
+		5AE8E0039917B8625E77E4B4AD14DC4F /* YuMIVideoFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BC5B04559A94B67584DEFCE2647B11 /* YuMIVideoFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E35845EA7F719BA6CEDC0B8328C6FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA95E3B7D2C5F3941E83C75D5903696 /* UIKit.framework */; };
+		614048B340398DB002F1FD3BBF9AD201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB42718430AB4A121D94608B3211F92 /* Foundation.framework */; };
+		640776F175B648FBC2E43C16ECF3F39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA95E3B7D2C5F3941E83C75D5903696 /* UIKit.framework */; };
+		66AF926BD5FBA7AF086604060C591F5F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEA893474320895C00D1F32025B9EB5 /* AdSupport.framework */; };
+		683BC5C73F59D698A28A277BB62BBECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB42718430AB4A121D94608B3211F92 /* Foundation.framework */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		6D20894F9540DF874EA17C5B971A14EF /* YUMIMainProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2570F8A4D189E5B17E2CDC718D4B543C /* YUMIMainProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F28A6AB8133BB2C7563AD427576B2AB /* YMVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6317D91B311B1BB44A15B3E6CF02572 /* YMVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7266032486EDFF1EC242DB5A1E484951 /* YuMIVideoConfigService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5959747C4689ED0D0160BCE4CB43F421 /* YuMIVideoConfigService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72F1D1F9907DAAD143216939EECFD73D /* YUMIVideoLogCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC69EE76FA4A318BED128CDA1786332 /* YUMIVideoLogCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74200165604B2A26C5FE264E5B2E1E67 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 1333271FC55BA4A402090B9A4EA42C7F /* CodeSignature */; };
+		6D20894F9540DF874EA17C5B971A14EF /* YUMIMainProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF19CD50AB1919D7F5E44AA119BEE7C /* YUMIMainProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F28A6AB8133BB2C7563AD427576B2AB /* YMVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B940FA432E86873356A640A1882C27 /* YMVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7266032486EDFF1EC242DB5A1E484951 /* YuMIVideoConfigService.h in Headers */ = {isa = PBXBuildFile; fileRef = F7438188D17508BF6DA5D3A33D3AD0C4 /* YuMIVideoConfigService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F1D1F9907DAAD143216939EECFD73D /* YUMIVideoLogCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A0A72B3119BC29BEC2BC9549CA1EEB /* YUMIVideoLogCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C5F2720CF5FF7EEC68F056E4DA087B /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 552DF53C7B030CF8128E2794D5096AB6 /* Info.plist */; };
+		751819689AD30CC62D2F582692250F50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFEF1FBFB8E51E521508C65E6184822 /* AVFoundation.framework */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		7FDFEB4849AB7E71F8A00E6039C7626E /* YuMIVideoAPIAdNetworkRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = FA179B6D0AED41C7D6065C8C2D90C97E /* YuMIVideoAPIAdNetworkRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FDFEB4849AB7E71F8A00E6039C7626E /* YuMIVideoAPIAdNetworkRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 15440252558707A5CDF7E46CD8383812 /* YuMIVideoAPIAdNetworkRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E1805DBDBC5695DBC8B54F567DA84D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCD5FD36ACD05508C574EAD0000868A /* CoreImage.framework */; };
 		84271A7B992CDFAD95AD35E4F481212E /* Pods-YUMIMainProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BE29DD33F553940292C943569FC8C4 /* Pods-YUMIMainProject_Tests-dummy.m */; };
-		85BD0EC291498900FA032650B0D09F5E /* YMVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D885906C4BD88B236679D1560BBFB09 /* YMVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86038E4BA6F0C94EF7B1C93649F3B9CF /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F21F306853AABCBB121FCE250E98D0C1 /* Info.plist */; };
-		89CFEDE4A436C62A5491EE48DEF73C1F /* YuMIVideoAdNetworkRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D5F18FC3597021B0B9FF03F4FE001D /* YuMIVideoAdNetworkRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BD0EC291498900FA032650B0D09F5E /* YMVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 42BEE0B40534EA2197DA419564A529AB /* YMVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89CFEDE4A436C62A5491EE48DEF73C1F /* YuMIVideoAdNetworkRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAC58767B11A167E65C9B1EBB3A1EAC /* YuMIVideoAdNetworkRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A3EB4672BD27557DC20BEDD71CFF83E /* YuMIVideoAdapterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3AA83C8C099DA2831B14365C95BFA9 /* YuMIVideoAdapterFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F84E1EF99DA0AA7404EB9F4980FE89 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = C308BD2731D548D6FAD0947B6ED63833 /* module.modulemap */; };
+		9A3EB4672BD27557DC20BEDD71CFF83E /* YuMIVideoAdapterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 56701E28EDEF9AFF4F9DDD43184F1C60 /* YuMIVideoAdapterFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ECCCA18CC6F16152D18D4CE69495F4B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E981DD6B96981CBCA66FA2F4166D67D /* CoreLocation.framework */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		AC877B11CB6023D82A822350DD7A0D77 /* AdsYuMIVideoService.h in Headers */ = {isa = PBXBuildFile; fileRef = 686EBB51C158FCDC76C13515EE844CB0 /* AdsYuMIVideoService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD8EBE53F2A72B3BDAEAA2E72DB093B5 /* YuMIVideoClassWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D04BF9611D6AF0B82AF4C58A91472013 /* YuMIVideoClassWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8AA9E891A8FF5AF54499246EE5D9ED6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7139EDDED98821506AD919EB852A90 /* SystemConfiguration.framework */; };
+		AC877B11CB6023D82A822350DD7A0D77 /* AdsYuMIVideoService.h in Headers */ = {isa = PBXBuildFile; fileRef = 497F8486316D33300E0F2ABBEFB83CE0 /* AdsYuMIVideoService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9B2D03A3F35EFC4068BBE3DFDED55E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17E0B13D5A59C6AF54360E8924540DE /* MediaPlayer.framework */; };
+		AD8EBE53F2A72B3BDAEAA2E72DB093B5 /* YuMIVideoClassWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA72879652EA450B7B9053C308C1E76 /* YuMIVideoClassWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF3E9B409B97E45DA8A4DED1A61A5314 /* Pods-YUMIMainProject_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7FF0B719F262C830BDA184FDAE3FE1 /* Pods-YUMIMainProject_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1912D77908635A677609B810A71FA30 /* YuMIVideoConfigBelowFile.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DEBAD26608188DF1462939DF5C31FC /* YuMIVideoConfigBelowFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1912D77908635A677609B810A71FA30 /* YuMIVideoConfigBelowFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 09903C219A4AD809CF4598C533E5432C /* YuMIVideoConfigBelowFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B26BEF4B63C8BCE4872F218F26453B25 /* Pods-YUMIMainProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18851FBB6185D152654E5082664F31E8 /* Pods-YUMIMainProject_Example-dummy.m */; };
+		B51708FB558DA1DDF88CF149A4CE9322 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277F058AAD49FCAC77EE2112B60AB30 /* Security.framework */; };
+		B74369560DAD241C223F4DBD19E43DEF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B792A02804BBCFCEF436CBF763EEC4CE /* Accelerate.framework */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C85B979746EF4E96A6FA4AC1E00E93AD /* YMVideoPlatforms.h in Headers */ = {isa = PBXBuildFile; fileRef = F871709A07B56166E7A5EE008D31F6F4 /* YMVideoPlatforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9F45FDE2759076A9A452587838FEACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
+		C01EC978D40EE840023586F7ACC9A7F3 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0A7FC196FBF3840167F45D8D4BD1D /* SafariServices.framework */; };
+		C71E76C0126820230564CCF7E917850D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CF96E8DC2B2379976CDECE232F1423 /* GLKit.framework */; };
+		C85B979746EF4E96A6FA4AC1E00E93AD /* YMVideoPlatforms.h in Headers */ = {isa = PBXBuildFile; fileRef = 9281DDE559126AF88325D855CD77CF95 /* YMVideoPlatforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F45FDE2759076A9A452587838FEACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB42718430AB4A121D94608B3211F92 /* Foundation.framework */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D32332CA40D4F631E8DBA950B25A18FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32099E0A716483F90035D502A494AC /* XCTest.framework */; };
-		D3FDC21C9103024F7D9FF0FD6E2B2768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
-		D718C69AF8CCFA7C390E04FF39B1E2D8 /* YUMIMainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C0579805AEFD3EC36BCCDC66E91F8 /* YUMIMainProject-dummy.m */; };
+		CDA6C578352E52202EF8C2E4BD4A88A9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEE2D2A79717C89F401880DE378A8AE /* StoreKit.framework */; };
+		D32332CA40D4F631E8DBA950B25A18FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5EA9F9BF55752CAE41040DAD96BFE6 /* XCTest.framework */; };
+		D35B34850DE4D57E845B709D58DED639 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A7155E47D84031EE0DA54BE6CE8C81 /* CoreGraphics.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		DBA984BF6B1670CDEC28A8050263FEE3 /* Pods-YUMIMainProject_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D37EFB915B9408562B7CE235C4D1F3 /* Pods-YUMIMainProject_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFE4AE77BEBC929534F21B1782D18EED /* YMVideoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E00D23BA3F60561E4FC1EC9E5CD3BF2B /* YMVideoCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E730C740E17FFC6904DD49748506067A /* YMVideoBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F45A04F9829A626ABD925B439606867 /* YMVideoBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F040201133C78940F7EA2BF855CE10C4 /* YuMIVideoConfigFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E533CD598B65CE26E29706DF00FEC72 /* YuMIVideoConfigFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2C1A46611793E6D230DB24630F07653 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB5935D454B38A095F344ED4511C69 /* module.modulemap */; };
-		F3791F50541BCB9E4F3C37B0E728A6AB /* YMVideoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA85CE926B1F3EEBCFE4234514165FF9 /* YMVideoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F69712D46903A6A0782BDB686450F72C /* YuMIVideoRequestStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 50346958494DAC4433E0E183D2003EDB /* YuMIVideoRequestStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEA97AA472805B1AC59B9836B0AB143C /* YMVideo in Sources */ = {isa = PBXBuildFile; fileRef = F8A0A0F936C0DA17A09CDA409438A4FE /* YMVideo */; };
+		DFE4AE77BEBC929534F21B1782D18EED /* YMVideoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBE40915A6F14C046CD89B4345E0438 /* YMVideoCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E730C740E17FFC6904DD49748506067A /* YMVideoBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D6629BBF19DE9EC5E84713AE400FD5AE /* YMVideoBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2E55529D5A8B889A2F4D8EBE7B40F0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD67CB7804371FDD7F4890E06FA785F /* MobileCoreServices.framework */; };
+		F040201133C78940F7EA2BF855CE10C4 /* YuMIVideoConfigFile.h in Headers */ = {isa = PBXBuildFile; fileRef = A781CA40738458666323CA4BE86A07C9 /* YuMIVideoConfigFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F081960DFEA5531B8CF0CF01A35B7665 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23E4D6F81139407E7E4EF82190C2A74 /* CFNetwork.framework */; };
+		F3791F50541BCB9E4F3C37B0E728A6AB /* YMVideoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DB06F1C49B2E3FB8D81CDA5C0A677F /* YMVideoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5DC562D126E76C31E2E7784AE347F0D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A396FA3CA2B36F4ED793A2CAAE12F3DF /* MessageUI.framework */; };
+		F69712D46903A6A0782BDB686450F72C /* YuMIVideoRequestStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 6766678E31171182D607A4454B769D09 /* YuMIVideoRequestStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F81DD84F52BBC5478B00842470D0B6F3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC696D81A14B9F200BC3A97F9126D45 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,100 +121,124 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02518265A31A7039390BF582D32918CA /* YUMIVideoType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YUMIVideoType.h; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		06052BD7A6F306CB88F661FE1DC668D9 /* YuMIVideoConfigInf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigInf.h; sourceTree = "<group>"; };
 		06D37EFB915B9408562B7CE235C4D1F3 /* Pods-YUMIMainProject_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YUMIMainProject_Example-umbrella.h"; sourceTree = "<group>"; };
 		074DB3D556E940D5902FE3A9EE023C02 /* Pods-YUMIMainProject_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUMIMainProject_Example-resources.sh"; sourceTree = "<group>"; };
+		07C0A7FC196FBF3840167F45D8D4BD1D /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
 		0841850124186CBDCC0F70496EC8BEA0 /* Pods-YUMIMainProject_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUMIMainProject_Example-frameworks.sh"; sourceTree = "<group>"; };
+		09903C219A4AD809CF4598C533E5432C /* YuMIVideoConfigBelowFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigBelowFile.h; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		0DD149670242A8CA9B60D026EE08CB02 /* Pods-YUMIMainProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUMIMainProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		111ED7C54A852B9432CF9A85A16DF24D /* YuMIVideoReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoReachability.h; sourceTree = "<group>"; };
-		11C9FFB122E7F89D806909E1F09B51FC /* YuMIVideoFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoFileTool.h; sourceTree = "<group>"; };
-		1333271FC55BA4A402090B9A4EA42C7F /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
+		12304C412D0FEE67E365073F4D2FB047 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		16B64C01405CDB472CCF31747CB4E613 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
+		15440252558707A5CDF7E46CD8383812 /* YuMIVideoAPIAdNetworkRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoAPIAdNetworkRegistry.h; sourceTree = "<group>"; };
 		18851FBB6185D152654E5082664F31E8 /* Pods-YUMIMainProject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YUMIMainProject_Example-dummy.m"; sourceTree = "<group>"; };
-		1F55FED16BD4CC7481DC3DA9DBE65781 /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
+		18BC5B04559A94B67584DEFCE2647B11 /* YuMIVideoFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoFileTool.h; sourceTree = "<group>"; };
+		1F965AA5C51097A67F94CEA6C668CDDF /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		1FEB6E8CFE323BB72B175275013B6696 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		1FFEF1FBFB8E51E521508C65E6184822 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2277F058AAD49FCAC77EE2112B60AB30 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		24C3BEBB0F653004CC3FD4F8D445E896 /* Pods-YUMIMainProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YUMIMainProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24CF45E8F449390E10ED87990D023EEF /* Pods-YUMIMainProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YUMIMainProject_Example.modulemap"; sourceTree = "<group>"; };
-		2570F8A4D189E5B17E2CDC718D4B543C /* YUMIMainProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YUMIMainProject-umbrella.h"; sourceTree = "<group>"; };
+		26DB06F1C49B2E3FB8D81CDA5C0A677F /* YMVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoDelegate.h; sourceTree = "<group>"; };
 		29FAABD89AC51DDB31F3441B41B3B874 /* Pods-YUMIMainProject_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUMIMainProject_Tests-resources.sh"; sourceTree = "<group>"; };
-		2E533CD598B65CE26E29706DF00FEC72 /* YuMIVideoConfigFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigFile.h; sourceTree = "<group>"; };
+		2BA95E3B7D2C5F3941E83C75D5903696 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2BEE2D2A79717C89F401880DE378A8AE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DC696D81A14B9F200BC3A97F9126D45 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		2E981DD6B96981CBCA66FA2F4166D67D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		2FBB8C0E2BCCC4FD47E5ECAA20AA07A5 /* YuMIVideoReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoReachability.h; sourceTree = "<group>"; };
+		2FCD5FD36ACD05508C574EAD0000868A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		2FE4554143C7EDB538740F0CC8A56F70 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		31985223262761592D0AFAED60218F25 /* GetInfoRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GetInfoRequest.h; sourceTree = "<group>"; };
+		321338C68218A724EE037ABDC9D6ADCD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
 		39159A1AD1A6D5C5930FAFEB22C9CDC4 /* Pods-YUMIMainProject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUMIMainProject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3C32099E0A716483F90035D502A494AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3D5B9328875129AA4B0C20A7F9953789 /* Pods-YUMIMainProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUMIMainProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3D885906C4BD88B236679D1560BBFB09 /* YMVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideo.h; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3E5EA9F9BF55752CAE41040DAD96BFE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3FBE40915A6F14C046CD89B4345E0438 /* YMVideoCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoCore.h; sourceTree = "<group>"; };
+		414AEC890E2F6817A7C2CD8CF2F3D366 /* YuMIVideoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfig.h; sourceTree = "<group>"; };
+		42BEE0B40534EA2197DA419564A529AB /* YMVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideo.h; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		4BBB5935D454B38A095F344ED4511C69 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = module.modulemap; sourceTree = "<group>"; };
-		50346958494DAC4433E0E183D2003EDB /* YuMIVideoRequestStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoRequestStatistics.h; sourceTree = "<group>"; };
-		5128F7223500C44DBFEB4713C86AED1F /* YuMIVideoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfig.h; sourceTree = "<group>"; };
-		516DFA9117272E7416AED5ADA4B2EE21 /* YuMIVideoError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoError.h; sourceTree = "<group>"; };
+		432CF4C5411D2C862669BE24659BF086 /* YuMIVideoAdNetworkAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoAdNetworkAdapter.h; sourceTree = "<group>"; };
+		443D94D612CD63712AA5B4567AACD634 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		44C4E9B95B468FADB0E0027EB9C02ECD /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
+		472323AE481DF68DD55C7B163E0E2F48 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		48A0A72B3119BC29BEC2BC9549CA1EEB /* YUMIVideoLogCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YUMIVideoLogCenter.h; sourceTree = "<group>"; };
+		497F8486316D33300E0F2ABBEFB83CE0 /* AdsYuMIVideoService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdsYuMIVideoService.h; sourceTree = "<group>"; };
+		4CAC58767B11A167E65C9B1EBB3A1EAC /* YuMIVideoAdNetworkRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoAdNetworkRegistry.h; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		552BC5D7204A2F625B1C4CB961CB55B2 /* YUMIMainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YUMIMainProject-dummy.m"; sourceTree = "<group>"; };
+		552DF53C7B030CF8128E2794D5096AB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5599E8530523215E3C43E3EBE07EB89A /* YUMIMainProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YUMIMainProject.framework; path = YUMIMainProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57566505993DAEEB3249AD370B65A216 /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
+		56701E28EDEF9AFF4F9DDD43184F1C60 /* YuMIVideoAdapterFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoAdapterFactory.h; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5959747C4689ED0D0160BCE4CB43F421 /* YuMIVideoConfigService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigService.h; sourceTree = "<group>"; };
-		5C1F885945C5BB3B5CB37E7CD95B15B3 /* GetInfoRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GetInfoRequest.h; sourceTree = "<group>"; };
 		5C49C4FA90C2FB70B6F8181A02DC9CF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C7975939408AE88484BE240212AD5F1 /* YUMIVideoType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YUMIVideoType.h; sourceTree = "<group>"; };
-		5D0C0579805AEFD3EC36BCCDC66E91F8 /* YUMIMainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YUMIMainProject-dummy.m"; sourceTree = "<group>"; };
-		684E8215BDA80667C7E01CD268AB6394 /* YUMIMainProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YUMIMainProject-prefix.pch"; sourceTree = "<group>"; };
-		686EBB51C158FCDC76C13515EE844CB0 /* AdsYuMIVideoService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdsYuMIVideoService.h; sourceTree = "<group>"; };
+		5EBA5CD580A1808B75538BE214F5318A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		60226A1BDA81C7FEA2B909EAFD6CB9C9 /* YuMIVideoConfigInf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigInf.h; sourceTree = "<group>"; };
+		6766678E31171182D607A4454B769D09 /* YuMIVideoRequestStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoRequestStatistics.h; sourceTree = "<group>"; };
+		68CF96E8DC2B2379976CDECE232F1423 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
 		6A7FF0B719F262C830BDA184FDAE3FE1 /* Pods-YUMIMainProject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YUMIMainProject_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FA417F414C2C726384F80CB915546E4 /* Pods-YUMIMainProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YUMIMainProject_Tests.modulemap"; sourceTree = "<group>"; };
-		723D51764640A38FD6DD4FF78010C0EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		763FC80C9BD12181F69B0D4B9BCD5534 /* YuMIVideoConfigSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigSource.h; sourceTree = "<group>"; };
+		7AC4B1ED46D2178885B426716B0BF365 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		7CBE3EEFA009455DD9FA3D0D2778F24E /* YuMIAnalysisDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIAnalysisDictionary.h; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7FCD867FAA9D694A5AC768B8AA00F50F /* Pods-YUMIMainProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUMIMainProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		850BB736B170E9D6DFD3E68F58308715 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8AC99E271B49E4F938F6EFB81F072EA2 /* YMVideo */ = {isa = PBXFileReference; includeInIndex = 1; path = YMVideo; sourceTree = "<group>"; };
+		878DF30DEEA8C682AD38E6B84303FA58 /* YuMIVideoRationsCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoRationsCenter.h; sourceTree = "<group>"; };
+		8FD28F5677D8031FCCB0092860399E34 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		90B940FA432E86873356A640A1882C27 /* YMVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoManager.h; sourceTree = "<group>"; };
+		9281DDE559126AF88325D855CD77CF95 /* YMVideoPlatforms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoPlatforms.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		959E3A30E918DA2AA504FE6ADF60DA2A /* YuMIVideoConfigMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigMemory.h; sourceTree = "<group>"; };
-		95C4B426689B99D62CAE34E915E07ACB /* YuMIVideoRationsCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoRationsCenter.h; sourceTree = "<group>"; };
-		9AC69EE76FA4A318BED128CDA1786332 /* YUMIVideoLogCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YUMIVideoLogCenter.h; sourceTree = "<group>"; };
+		9AA72879652EA450B7B9053C308C1E76 /* YuMIVideoClassWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoClassWrapper.h; sourceTree = "<group>"; };
 		9D9BF23FF2F80272CED06C282943FAB1 /* Pods-YUMIMainProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUMIMainProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9F45A04F9829A626ABD925B439606867 /* YMVideoBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoBaseRequest.h; sourceTree = "<group>"; };
-		A165BDE4A93138FAFE8BA0F61BFB5B24 /* YuMIVideoAdNetworkAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoAdNetworkAdapter.h; sourceTree = "<group>"; };
-		B0CE8C0D7DE106F9862542F0A9929F11 /* YuMIVideoConfigCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigCenter.h; sourceTree = "<group>"; };
-		B1FC09F22722071B1955047C08031DFF /* YuMIDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIDeviceInfo.h; sourceTree = "<group>"; };
-		B5DEBAD26608188DF1462939DF5C31FC /* YuMIVideoConfigBelowFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigBelowFile.h; sourceTree = "<group>"; };
+		A0560400E86A6F6E6BB7C5E78E92C82C /* YuMIDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIDeviceInfo.h; sourceTree = "<group>"; };
+		A11218065A6FB3C6229E9886A3AB1629 /* YuMIVideoConfigCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigCenter.h; sourceTree = "<group>"; };
+		A396FA3CA2B36F4ED793A2CAAE12F3DF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		A781CA40738458666323CA4BE86A07C9 /* YuMIVideoConfigFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigFile.h; sourceTree = "<group>"; };
+		B31E9D40783EC5F7E6ABAFF990296ABA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B792A02804BBCFCEF436CBF763EEC4CE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BB684E9BA2F55B03C4852179CDF44DB0 /* YuMIVideoConfigMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigMemory.h; sourceTree = "<group>"; };
 		BC65D3E86CF2F3DAC6324BF9F1A2B072 /* Pods_YUMIMainProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YUMIMainProject_Tests.framework; path = "Pods-YUMIMainProject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4699DF99D9E3C8426BBE93F9E28DC1C /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
-		C4CEA8AFE589F7D8BC143760DA5E9D92 /* YuMIVideoConfigSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigSource.h; sourceTree = "<group>"; };
+		BCB42718430AB4A121D94608B3211F92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BDE595536653639801F6799A2E173219 /* YuMIVideoSDKAdNetworkRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoSDKAdNetworkRegistry.h; sourceTree = "<group>"; };
+		C17E0B13D5A59C6AF54360E8924540DE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		C308BD2731D548D6FAD0947B6ED63833 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = module.modulemap; sourceTree = "<group>"; };
 		C7BE29DD33F553940292C943569FC8C4 /* Pods-YUMIMainProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YUMIMainProject_Tests-dummy.m"; sourceTree = "<group>"; };
 		C959CB0A1A4296C9718DE50D70F073AE /* Pods-YUMIMainProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUMIMainProject_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CACEE80369AC8AD3441F50E8BADC9A40 /* YUMIMainProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YUMIMainProject.xcconfig; sourceTree = "<group>"; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		CF3AA83C8C099DA2831B14365C95BFA9 /* YuMIVideoAdapterFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoAdapterFactory.h; sourceTree = "<group>"; };
+		CCD67CB7804371FDD7F4890E06FA785F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		CFDFDBEAF65B3BD76466143E77596B3F /* Pods-YUMIMainProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YUMIMainProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D04BF9611D6AF0B82AF4C58A91472013 /* YuMIVideoClassWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoClassWrapper.h; sourceTree = "<group>"; };
 		D380794A881B20EC15D5BB459503980E /* Pods-YUMIMainProject_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUMIMainProject_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D6317D91B311B1BB44A15B3E6CF02572 /* YMVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoManager.h; sourceTree = "<group>"; };
-		D8116C9241363838FED890412DB5FEF6 /* YuMIVideoSDKAdNetworkRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoSDKAdNetworkRegistry.h; sourceTree = "<group>"; };
+		D6629BBF19DE9EC5E84713AE400FD5AE /* YMVideoBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoBaseRequest.h; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA815FAC2ABAA61C5F856062D5410B27 /* YUMIMainProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YUMIMainProject.modulemap; sourceTree = "<group>"; };
-		DA85CE926B1F3EEBCFE4234514165FF9 /* YMVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoDelegate.h; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		E00D23BA3F60561E4FC1EC9E5CD3BF2B /* YMVideoCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoCore.h; sourceTree = "<group>"; };
+		DEEA893474320895C00D1F32025B9EB5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		DEF19CD50AB1919D7F5E44AA119BEE7C /* YUMIMainProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YUMIMainProject-umbrella.h"; sourceTree = "<group>"; };
+		E341C1DFE7093132E117B015CDC8D7FE /* YUMIMainProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YUMIMainProject-prefix.pch"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E9D5F18FC3597021B0B9FF03F4FE001D /* YuMIVideoAdNetworkRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoAdNetworkRegistry.h; sourceTree = "<group>"; };
-		F21F306853AABCBB121FCE250E98D0C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44C70069D168380D1B45A7DA58DC46E /* YuMIVideoError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoError.h; sourceTree = "<group>"; };
+		E68226C5450D53024F8413000F128B9E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		E7A7739F8498079B1DCA8BD63235DFBA /* YUMIMainProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YUMIMainProject.xcconfig; sourceTree = "<group>"; };
+		EF1ADF7755D94DB0D679F771E1A6F3FB /* YMVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YMVideo.framework; path = YUMIMainProject/Classes/YMVideo.framework; sourceTree = "<group>"; };
+		F23E4D6F81139407E7E4EF82190C2A74 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		F28337A21C5E42A00F0E4F4753F729DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2D03547F25F024F8E119A89156DBD97 /* YuMIAnalysisDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIAnalysisDictionary.h; sourceTree = "<group>"; };
-		F871709A07B56166E7A5EE008D31F6F4 /* YMVideoPlatforms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMVideoPlatforms.h; sourceTree = "<group>"; };
-		FA179B6D0AED41C7D6065C8C2D90C97E /* YuMIVideoAPIAdNetworkRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoAPIAdNetworkRegistry.h; sourceTree = "<group>"; };
+		F3A7155E47D84031EE0DA54BE6CE8C81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F7438188D17508BF6DA5D3A33D3AD0C4 /* YuMIVideoConfigService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoConfigService.h; sourceTree = "<group>"; };
+		F8A0A0F936C0DA17A09CDA409438A4FE /* YMVideo */ = {isa = PBXFileReference; includeInIndex = 1; path = YMVideo; sourceTree = "<group>"; };
 		FA67C422E9350512753D0B5DFFFAD058 /* Pods_YUMIMainProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YUMIMainProject_Example.framework; path = "Pods-YUMIMainProject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7139EDDED98821506AD919EB852A90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FDEBF30800E3A2515119F8BA43A9E2DF /* YUMIMainProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YUMIMainProject.modulemap; sourceTree = "<group>"; };
 		FE74E80015D56378FEF69BCAED07C851 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -205,19 +254,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25C7BDAD2D65F073424B6BF3D2BABE2B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3FDC21C9103024F7D9FF0FD6E2B2768 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		608A9420F5AA4FF1483A522615F15DAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C9F45FDE2759076A9A452587838FEACE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A602AC367B206303AEA2D4780B9B495C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74369560DAD241C223F4DBD19E43DEF /* Accelerate.framework in Frameworks */,
+				66AF926BD5FBA7AF086604060C591F5F /* AdSupport.framework in Frameworks */,
+				F81DD84F52BBC5478B00842470D0B6F3 /* AudioToolbox.framework in Frameworks */,
+				751819689AD30CC62D2F582692250F50 /* AVFoundation.framework in Frameworks */,
+				F081960DFEA5531B8CF0CF01A35B7665 /* CFNetwork.framework in Frameworks */,
+				2274C10185B96655B702256BE0E7C2F0 /* CoreBluetooth.framework in Frameworks */,
+				4909023C1E7AE5E51D0121BD1CA7E15C /* CoreData.framework in Frameworks */,
+				D35B34850DE4D57E845B709D58DED639 /* CoreGraphics.framework in Frameworks */,
+				81E1805DBDBC5695DBC8B54F567DA84D /* CoreImage.framework in Frameworks */,
+				9ECCCA18CC6F16152D18D4CE69495F4B /* CoreLocation.framework in Frameworks */,
+				13D38AC996701A324CC90C42E5D03322 /* CoreMedia.framework in Frameworks */,
+				31C6DAA13453D256D9CEC5E9E9A0F14F /* CoreMotion.framework in Frameworks */,
+				4CAA768D802A97687B75465C536E52BF /* CoreTelephony.framework in Frameworks */,
+				2F6EC8899F7E1FB6AA3BCD60E4CE1BFF /* CoreVideo.framework in Frameworks */,
+				0C83C65DEDBB8B90ED174CE47BBB19CF /* EventKit.framework in Frameworks */,
+				3FA2FAF2AF06D6F98F73D39E0551D7D9 /* EventKitUI.framework in Frameworks */,
+				683BC5C73F59D698A28A277BB62BBECF /* Foundation.framework in Frameworks */,
+				C71E76C0126820230564CCF7E917850D /* GLKit.framework in Frameworks */,
+				1B201A5F319C276C57837DBACD527691 /* iAd.framework in Frameworks */,
+				AC9B2D03A3F35EFC4068BBE3DFDED55E /* MediaPlayer.framework in Frameworks */,
+				F5DC562D126E76C31E2E7784AE347F0D /* MessageUI.framework in Frameworks */,
+				EE2E55529D5A8B889A2F4D8EBE7B40F0 /* MobileCoreServices.framework in Frameworks */,
+				2EA0E95A570DAB566CB1E3A833D165AF /* OpenGLES.framework in Frameworks */,
+				3437B7E9E3DF570CE2006E7210B2C8EC /* QuartzCore.framework in Frameworks */,
+				C01EC978D40EE840023586F7ACC9A7F3 /* SafariServices.framework in Frameworks */,
+				B51708FB558DA1DDF88CF149A4CE9322 /* Security.framework in Frameworks */,
+				209CF0BDCADBFF066215A0D183B541E5 /* Social.framework in Frameworks */,
+				CDA6C578352E52202EF8C2E4BD4A88A9 /* StoreKit.framework in Frameworks */,
+				A8AA9E891A8FF5AF54499246EE5D9ED6 /* SystemConfiguration.framework in Frameworks */,
+				60E35845EA7F719BA6CEDC0B8328C6FB /* UIKit.framework in Frameworks */,
+				3409DF4E5715931B8EEEC6D9BA687E85 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,18 +311,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10A42864C3BF829955D3048C7726B4E0 /* Support Files */ = {
+		0194D6A077F923DC40110CB485DAFD47 /* YMVideo.framework */ = {
 			isa = PBXGroup;
 			children = (
-				723D51764640A38FD6DD4FF78010C0EA /* Info.plist */,
-				DA815FAC2ABAA61C5F856062D5410B27 /* YUMIMainProject.modulemap */,
-				CACEE80369AC8AD3441F50E8BADC9A40 /* YUMIMainProject.xcconfig */,
-				5D0C0579805AEFD3EC36BCCDC66E91F8 /* YUMIMainProject-dummy.m */,
-				684E8215BDA80667C7E01CD268AB6394 /* YUMIMainProject-prefix.pch */,
-				2570F8A4D189E5B17E2CDC718D4B543C /* YUMIMainProject-umbrella.h */,
+				552DF53C7B030CF8128E2794D5096AB6 /* Info.plist */,
+				F8A0A0F936C0DA17A09CDA409438A4FE /* YMVideo */,
+				450D5F8577BF29214F8400F6FFFDAE97 /* Headers */,
+				D6D4B759D8B4A7229A20CB323965C276 /* Modules */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YUMIMainProject";
+			name = YMVideo.framework;
+			path = YMVideo.framework;
+			sourceTree = "<group>";
+		};
+		0DD3553730195DFFD3EAF604110B837C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B792A02804BBCFCEF436CBF763EEC4CE /* Accelerate.framework */,
+				DEEA893474320895C00D1F32025B9EB5 /* AdSupport.framework */,
+				2DC696D81A14B9F200BC3A97F9126D45 /* AudioToolbox.framework */,
+				1FFEF1FBFB8E51E521508C65E6184822 /* AVFoundation.framework */,
+				F23E4D6F81139407E7E4EF82190C2A74 /* CFNetwork.framework */,
+				8FD28F5677D8031FCCB0092860399E34 /* CoreBluetooth.framework */,
+				2FE4554143C7EDB538740F0CC8A56F70 /* CoreData.framework */,
+				F3A7155E47D84031EE0DA54BE6CE8C81 /* CoreGraphics.framework */,
+				2FCD5FD36ACD05508C574EAD0000868A /* CoreImage.framework */,
+				2E981DD6B96981CBCA66FA2F4166D67D /* CoreLocation.framework */,
+				472323AE481DF68DD55C7B163E0E2F48 /* CoreMedia.framework */,
+				12304C412D0FEE67E365073F4D2FB047 /* CoreMotion.framework */,
+				7AC4B1ED46D2178885B426716B0BF365 /* CoreTelephony.framework */,
+				E68226C5450D53024F8413000F128B9E /* CoreVideo.framework */,
+				1F965AA5C51097A67F94CEA6C668CDDF /* EventKit.framework */,
+				44C4E9B95B468FADB0E0027EB9C02ECD /* EventKitUI.framework */,
+				BCB42718430AB4A121D94608B3211F92 /* Foundation.framework */,
+				68CF96E8DC2B2379976CDECE232F1423 /* GLKit.framework */,
+				321338C68218A724EE037ABDC9D6ADCD /* iAd.framework */,
+				C17E0B13D5A59C6AF54360E8924540DE /* MediaPlayer.framework */,
+				A396FA3CA2B36F4ED793A2CAAE12F3DF /* MessageUI.framework */,
+				CCD67CB7804371FDD7F4890E06FA785F /* MobileCoreServices.framework */,
+				1FEB6E8CFE323BB72B175275013B6696 /* OpenGLES.framework */,
+				5EBA5CD580A1808B75538BE214F5318A /* QuartzCore.framework */,
+				07C0A7FC196FBF3840167F45D8D4BD1D /* SafariServices.framework */,
+				2277F058AAD49FCAC77EE2112B60AB30 /* Security.framework */,
+				443D94D612CD63712AA5B4567AACD634 /* Social.framework */,
+				2BEE2D2A79717C89F401880DE378A8AE /* StoreKit.framework */,
+				FA7139EDDED98821506AD919EB852A90 /* SystemConfiguration.framework */,
+				2BA95E3B7D2C5F3941E83C75D5903696 /* UIKit.framework */,
+				850BB736B170E9D6DFD3E68F58308715 /* WebKit.framework */,
+				3E5EA9F9BF55752CAE41040DAD96BFE6 /* XCTest.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		14783043D80CD52525E85A90C86C6B27 /* Pods-YUMIMainProject_Tests */ = {
@@ -262,14 +378,6 @@
 			);
 			name = "Pods-YUMIMainProject_Tests";
 			path = "Target Support Files/Pods-YUMIMainProject_Tests";
-			sourceTree = "<group>";
-		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F76C5E10C253876355FB231229C42226 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */ = {
@@ -297,35 +405,60 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		2F02DA3BD790287FEBEF211EBD7B25DD /* Classes */ = {
+		450D5F8577BF29214F8400F6FFFDAE97 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				B0A9539E21828F1CBDBD1C2A81023A50 /* YMVideo.framework */,
+				497F8486316D33300E0F2ABBEFB83CE0 /* AdsYuMIVideoService.h */,
+				31985223262761592D0AFAED60218F25 /* GetInfoRequest.h */,
+				42BEE0B40534EA2197DA419564A529AB /* YMVideo.h */,
+				D6629BBF19DE9EC5E84713AE400FD5AE /* YMVideoBaseRequest.h */,
+				3FBE40915A6F14C046CD89B4345E0438 /* YMVideoCore.h */,
+				26DB06F1C49B2E3FB8D81CDA5C0A677F /* YMVideoDelegate.h */,
+				90B940FA432E86873356A640A1882C27 /* YMVideoManager.h */,
+				9281DDE559126AF88325D855CD77CF95 /* YMVideoPlatforms.h */,
+				7CBE3EEFA009455DD9FA3D0D2778F24E /* YuMIAnalysisDictionary.h */,
+				A0560400E86A6F6E6BB7C5E78E92C82C /* YuMIDeviceInfo.h */,
+				56701E28EDEF9AFF4F9DDD43184F1C60 /* YuMIVideoAdapterFactory.h */,
+				432CF4C5411D2C862669BE24659BF086 /* YuMIVideoAdNetworkAdapter.h */,
+				4CAC58767B11A167E65C9B1EBB3A1EAC /* YuMIVideoAdNetworkRegistry.h */,
+				15440252558707A5CDF7E46CD8383812 /* YuMIVideoAPIAdNetworkRegistry.h */,
+				9AA72879652EA450B7B9053C308C1E76 /* YuMIVideoClassWrapper.h */,
+				414AEC890E2F6817A7C2CD8CF2F3D366 /* YuMIVideoConfig.h */,
+				09903C219A4AD809CF4598C533E5432C /* YuMIVideoConfigBelowFile.h */,
+				A11218065A6FB3C6229E9886A3AB1629 /* YuMIVideoConfigCenter.h */,
+				A781CA40738458666323CA4BE86A07C9 /* YuMIVideoConfigFile.h */,
+				60226A1BDA81C7FEA2B909EAFD6CB9C9 /* YuMIVideoConfigInf.h */,
+				BB684E9BA2F55B03C4852179CDF44DB0 /* YuMIVideoConfigMemory.h */,
+				F7438188D17508BF6DA5D3A33D3AD0C4 /* YuMIVideoConfigService.h */,
+				763FC80C9BD12181F69B0D4B9BCD5534 /* YuMIVideoConfigSource.h */,
+				E44C70069D168380D1B45A7DA58DC46E /* YuMIVideoError.h */,
+				18BC5B04559A94B67584DEFCE2647B11 /* YuMIVideoFileTool.h */,
+				48A0A72B3119BC29BEC2BC9549CA1EEB /* YUMIVideoLogCenter.h */,
+				878DF30DEEA8C682AD38E6B84303FA58 /* YuMIVideoRationsCenter.h */,
+				2FBB8C0E2BCCC4FD47E5ECAA20AA07A5 /* YuMIVideoReachability.h */,
+				6766678E31171182D607A4454B769D09 /* YuMIVideoRequestStatistics.h */,
+				BDE595536653639801F6799A2E173219 /* YuMIVideoSDKAdNetworkRegistry.h */,
+				02518265A31A7039390BF582D32918CA /* YUMIVideoType.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		5A237AD4CD3DACCC190C77B1F00225A0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F278435F5E9E92C42CDAB1120C2F7CA7 /* YUMIMainProject */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6AC10739015E27F610C710786D089952 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0194D6A077F923DC40110CB485DAFD47 /* YMVideo.framework */,
 			);
 			name = Classes;
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		4C1F086A264A3395F6C7BF8104E49D55 /* _CodeSignature */ = {
-			isa = PBXGroup;
-			children = (
-				C4699DF99D9E3C8426BBE93F9E28DC1C /* CodeDirectory */,
-				1F55FED16BD4CC7481DC3DA9DBE65781 /* CodeRequirements */,
-				57566505993DAEEB3249AD370B65A216 /* CodeRequirements-1 */,
-				16B64C01405CDB472CCF31747CB4E613 /* CodeResources */,
-				1333271FC55BA4A402090B9A4EA42C7F /* CodeSignature */,
-			);
-			name = _CodeSignature;
-			path = _CodeSignature;
-			sourceTree = "<group>";
-		};
-		5A949F6E8ED4E2B6B2BF98CB1B23EDA2 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				4BBB5935D454B38A095F344ED4511C69 /* module.modulemap */,
-			);
-			name = Modules;
-			path = Modules;
 			sourceTree = "<group>";
 		};
 		710C8420C1CC8458A72BF85397DCBB23 /* Targets Support Files */ = {
@@ -337,21 +470,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		730761ADB3944E8D2F31E96DC90C6EF5 /* YUMIMainProject */ = {
+		729063AEA63A69951FDACCA96C82C5FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2F02DA3BD790287FEBEF211EBD7B25DD /* Classes */,
+				0DD3553730195DFFD3EAF604110B837C /* iOS */,
 			);
-			name = YUMIMainProject;
-			path = YUMIMainProject;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C69D0AAA9EB1CFE2DE7CF903EBA7E1FE /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				5A237AD4CD3DACCC190C77B1F00225A0 /* Development Pods */,
+				729063AEA63A69951FDACCA96C82C5FD /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				A37CA40CA39BD2AACCED8ED222D9428C /* Products */,
 				710C8420C1CC8458A72BF85397DCBB23 /* Targets Support Files */,
@@ -384,6 +516,20 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		9FDC6E204408932207CE0CFF62C3A560 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31E9D40783EC5F7E6ABAFF990296ABA /* Info.plist */,
+				FDEBF30800E3A2515119F8BA43A9E2DF /* YUMIMainProject.modulemap */,
+				E7A7739F8498079B1DCA8BD63235DFBA /* YUMIMainProject.xcconfig */,
+				552BC5D7204A2F625B1C4CB961CB55B2 /* YUMIMainProject-dummy.m */,
+				E341C1DFE7093132E117B015CDC8D7FE /* YUMIMainProject-prefix.pch */,
+				DEF19CD50AB1919D7F5E44AA119BEE7C /* YUMIMainProject-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YUMIMainProject";
+			sourceTree = "<group>";
+		};
 		A37CA40CA39BD2AACCED8ED222D9428C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,71 +541,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0A9539E21828F1CBDBD1C2A81023A50 /* YMVideo.framework */ = {
+		B1664235CE1F8A9C88219868111CA720 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F21F306853AABCBB121FCE250E98D0C1 /* Info.plist */,
-				8AC99E271B49E4F938F6EFB81F072EA2 /* YMVideo */,
-				4C1F086A264A3395F6C7BF8104E49D55 /* _CodeSignature */,
-				D564C257485170EB15F4BFEFA0FAB39C /* Headers */,
-				5A949F6E8ED4E2B6B2BF98CB1B23EDA2 /* Modules */,
+				EF1ADF7755D94DB0D679F771E1A6F3FB /* YMVideo.framework */,
 			);
-			name = YMVideo.framework;
-			path = YMVideo.framework;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C69D0AAA9EB1CFE2DE7CF903EBA7E1FE /* Development Pods */ = {
+		CB2CF7CA6B2573A3EA1C4A571F581E70 /* YUMIMainProject */ = {
 			isa = PBXGroup;
 			children = (
-				DC3188A0D6E69D9A1707D6BFD2FF7E0C /* YUMIMainProject */,
+				6AC10739015E27F610C710786D089952 /* Classes */,
 			);
-			name = "Development Pods";
+			name = YUMIMainProject;
+			path = YUMIMainProject;
 			sourceTree = "<group>";
 		};
-		D564C257485170EB15F4BFEFA0FAB39C /* Headers */ = {
+		D6D4B759D8B4A7229A20CB323965C276 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				686EBB51C158FCDC76C13515EE844CB0 /* AdsYuMIVideoService.h */,
-				5C1F885945C5BB3B5CB37E7CD95B15B3 /* GetInfoRequest.h */,
-				3D885906C4BD88B236679D1560BBFB09 /* YMVideo.h */,
-				9F45A04F9829A626ABD925B439606867 /* YMVideoBaseRequest.h */,
-				E00D23BA3F60561E4FC1EC9E5CD3BF2B /* YMVideoCore.h */,
-				DA85CE926B1F3EEBCFE4234514165FF9 /* YMVideoDelegate.h */,
-				D6317D91B311B1BB44A15B3E6CF02572 /* YMVideoManager.h */,
-				F871709A07B56166E7A5EE008D31F6F4 /* YMVideoPlatforms.h */,
-				F2D03547F25F024F8E119A89156DBD97 /* YuMIAnalysisDictionary.h */,
-				B1FC09F22722071B1955047C08031DFF /* YuMIDeviceInfo.h */,
-				CF3AA83C8C099DA2831B14365C95BFA9 /* YuMIVideoAdapterFactory.h */,
-				A165BDE4A93138FAFE8BA0F61BFB5B24 /* YuMIVideoAdNetworkAdapter.h */,
-				E9D5F18FC3597021B0B9FF03F4FE001D /* YuMIVideoAdNetworkRegistry.h */,
-				FA179B6D0AED41C7D6065C8C2D90C97E /* YuMIVideoAPIAdNetworkRegistry.h */,
-				D04BF9611D6AF0B82AF4C58A91472013 /* YuMIVideoClassWrapper.h */,
-				5128F7223500C44DBFEB4713C86AED1F /* YuMIVideoConfig.h */,
-				B5DEBAD26608188DF1462939DF5C31FC /* YuMIVideoConfigBelowFile.h */,
-				B0CE8C0D7DE106F9862542F0A9929F11 /* YuMIVideoConfigCenter.h */,
-				2E533CD598B65CE26E29706DF00FEC72 /* YuMIVideoConfigFile.h */,
-				06052BD7A6F306CB88F661FE1DC668D9 /* YuMIVideoConfigInf.h */,
-				959E3A30E918DA2AA504FE6ADF60DA2A /* YuMIVideoConfigMemory.h */,
-				5959747C4689ED0D0160BCE4CB43F421 /* YuMIVideoConfigService.h */,
-				C4CEA8AFE589F7D8BC143760DA5E9D92 /* YuMIVideoConfigSource.h */,
-				516DFA9117272E7416AED5ADA4B2EE21 /* YuMIVideoError.h */,
-				11C9FFB122E7F89D806909E1F09B51FC /* YuMIVideoFileTool.h */,
-				9AC69EE76FA4A318BED128CDA1786332 /* YUMIVideoLogCenter.h */,
-				95C4B426689B99D62CAE34E915E07ACB /* YuMIVideoRationsCenter.h */,
-				111ED7C54A852B9432CF9A85A16DF24D /* YuMIVideoReachability.h */,
-				50346958494DAC4433E0E183D2003EDB /* YuMIVideoRequestStatistics.h */,
-				D8116C9241363838FED890412DB5FEF6 /* YuMIVideoSDKAdNetworkRegistry.h */,
-				5C7975939408AE88484BE240212AD5F1 /* YUMIVideoType.h */,
+				C308BD2731D548D6FAD0947B6ED63833 /* module.modulemap */,
 			);
-			name = Headers;
-			path = Headers;
+			name = Modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		DC3188A0D6E69D9A1707D6BFD2FF7E0C /* YUMIMainProject */ = {
+		F278435F5E9E92C42CDAB1120C2F7CA7 /* YUMIMainProject */ = {
 			isa = PBXGroup;
 			children = (
-				10A42864C3BF829955D3048C7726B4E0 /* Support Files */,
-				730761ADB3944E8D2F31E96DC90C6EF5 /* YUMIMainProject */,
+				B1664235CE1F8A9C88219868111CA720 /* Frameworks */,
+				9FDC6E204408932207CE0CFF62C3A560 /* Support Files */,
+				CB2CF7CA6B2573A3EA1C4A571F581E70 /* YUMIMainProject */,
 			);
 			name = YUMIMainProject;
 			path = ../..;
@@ -484,17 +597,6 @@
 				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		F76C5E10C253876355FB231229C42226 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */,
-				41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */,
-				0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */,
-				3C32099E0A716483F90035D502A494AC /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
@@ -585,8 +687,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2537EDC98396E598BD521210206D198 /* Build configuration list for PBXNativeTarget "YUMIMainProject" */;
 			buildPhases = (
-				689A91323086C3CD8A613A945C03C41A /* Sources */,
-				25C7BDAD2D65F073424B6BF3D2BABE2B /* Frameworks */,
+				833D31515551E17F48E02CC70CCD3004 /* Sources */,
+				A602AC367B206303AEA2D4780B9B495C /* Frameworks */,
 				4C18DECA7F4A8EA7F6A17BA094016F38 /* Headers */,
 			);
 			buildRules = (
@@ -697,19 +799,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		689A91323086C3CD8A613A945C03C41A /* Sources */ = {
+		833D31515551E17F48E02CC70CCD3004 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03CA091630A6082A48782B9D686BF27F /* CodeDirectory in Sources */,
-				27F1E21F0963FE17748B4953D191BCA7 /* CodeRequirements in Sources */,
-				3F3984040A42574A1F7AAFA7FA3B4AD4 /* CodeRequirements-1 in Sources */,
-				1D4BB78AF93BEF7F172916DF24FE4522 /* CodeResources in Sources */,
-				74200165604B2A26C5FE264E5B2E1E67 /* CodeSignature in Sources */,
-				86038E4BA6F0C94EF7B1C93649F3B9CF /* Info.plist in Sources */,
-				F2C1A46611793E6D230DB24630F07653 /* module.modulemap in Sources */,
-				411337E4E89166E8C8D910ED4305BE6A /* YMVideo in Sources */,
-				D718C69AF8CCFA7C390E04FF39B1E2D8 /* YUMIMainProject-dummy.m in Sources */,
+				74C5F2720CF5FF7EEC68F056E4DA087B /* Info.plist in Sources */,
+				96F84E1EF99DA0AA7404EB9F4980FE89 /* module.modulemap in Sources */,
+				DEA97AA472805B1AC59B9836B0AB143C /* YMVideo in Sources */,
+				59B79A33BCF5BD0698155BB29C613CA3 /* YUMIMainProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1006,7 +1103,7 @@
 		};
 		B728C77D0BB148A84BFF1C2850F7BDDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CACEE80369AC8AD3441F50E8BADC9A40 /* YUMIMainProject.xcconfig */;
+			baseConfigurationReference = E7A7739F8498079B1DCA8BD63235DFBA /* YUMIMainProject.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1068,7 +1165,7 @@
 		};
 		E7EC6E1B76B3A74F02B38B8FE673DCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CACEE80369AC8AD3441F50E8BADC9A40 /* YUMIMainProject.xcconfig */;
+			baseConfigurationReference = E7A7739F8498079B1DCA8BD63235DFBA /* YUMIMainProject.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

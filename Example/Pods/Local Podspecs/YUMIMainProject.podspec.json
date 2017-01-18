@@ -1,9 +1,9 @@
 {
   "name": "YUMIMainProject",
-  "version": "0.1.0",
-  "summary": "A short description of YUMIMainProject.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/YUMIMainProject",
+  "version": "1.0.0",
+  "summary": "YUMIMainProject.",
+  "description": "Add long description of the pod here.",
+  "homepage": "https://github.com/czt740277638/YUMIMainProject.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,54 @@
     "czt740277638": "740277638@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/YUMIMainProject.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/czt740277638/YUMIMainProject.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YUMIMainProject/Classes/**/*"
+  "source_files": "YUMIMainProject/Classes/**/*",
+  "public_header_files": "YUMIMainProject/Classes/YMVideo.framework/Headers/*.h",
+  "ios": {
+    "vendored_frameworks": "YUMIMainProject/Classes/YMVideo.framework"
+  },
+  "libraries": [
+    "c++",
+    "sqlite3",
+    "xml2",
+    "z"
+  ],
+  "frameworks": [
+    "AVFoundation",
+    "Accelerate",
+    "AdSupport",
+    "AudioToolbox",
+    "CFNetwork",
+    "CoreBluetooth",
+    "CoreData",
+    "CoreGraphics",
+    "CoreImage",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreTelephony",
+    "CoreVideo",
+    "EventKit",
+    "EventKitUI",
+    "Foundation",
+    "GLKit",
+    "MediaPlayer",
+    "MessageUI",
+    "MobileCoreServices",
+    "OpenGLES",
+    "QuartzCore",
+    "SafariServices",
+    "Security",
+    "Social",
+    "StoreKit",
+    "SystemConfiguration",
+    "UIKit",
+    "WebKit",
+    "iAd"
+  ]
 }

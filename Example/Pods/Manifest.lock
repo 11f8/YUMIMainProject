@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YUMIMainProject (0.1.0)
+  - YUMIMainProject (1.0.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  YUMIMainProject: 358f1aa601db85a48081dd835a83499c8832e982
+  YUMIMainProject: e9bb02f5d154c54fe908e0d4ed702ab344d1cfbe
 
 PODFILE CHECKSUM: 8f54066522961ba30d81a025f621e19bedf96014
 
